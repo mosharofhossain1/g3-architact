@@ -112,10 +112,12 @@ nav ul li a {
     color: #727272;
     margin: 20px 0px;
 }
-.banner_img{
+
+.banner_img {
     margin-top: 20px;
 }
-.banner_img img{
+
+.banner_img img {
     width: 100%;
 }
 
@@ -123,55 +125,142 @@ nav ul li a {
 
 /* Main section Css Style Start */
 /* Team Secttion css */
-.team_section{
+.team_section {
     margin-top: 80px;
     padding: 40px 0px;
 }
-.teams_container{
+
+.teams_container {
     display: flex;
     align-items: center;
-     
+
 }
-.team_title{
+
+.team_title {
     width: 450px;
     margin-bottom: 20px;
 }
-.team_desc{
+
+.team_desc {
     font-size: 16px;
-font-style: normal;
-font-weight: 400;
-color: #727272;
-margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 20px;
 }
-.normal_color{
+
+.normal_color {
     color: #727272;
     font-size: 40px;
     font-weight: 700;
 }
-.black_color{
+
+.black_color {
     color: #131313;
     font-size: 40px;
     font-weight: 700;
 }
-.primary_color{
+
+.primary_color {
     color: #FF900E;
     font-size: 40px;
     font-weight: 700;
 }
-.team_images_content{
+
+.team_images_content {
     width: 48%;
     margin-right: 2%;
 }
-.team_images_content{
+
+.team_images_content {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.team_images_content img{
+
+.team_images_content img {
     width: 100%;
 }
- .team_desc_content{
+
+.team_desc_content {
     width: 50%;
     margin-left: 2%;
- }
+}
+
+/* Feature Section Start */
+.feature_section {
+    margin-top: 70px;
+    padding: 50px 0px;
+
+}
+.feature_section .experiance {
+    background-color: #FF900E;
+    padding: 30px;
+    font-size: 40px;
+    color: white;
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    top: -72px;
+    left: 527px;
+    text-align: center;
+}
+.features_container {
+    display: flex;
+}
+
+.feature_top_content {
+    margin: 15px 0px;
+    
+}
+
+.feature_top_content .top_title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 15px;
+    border-left: 7px solid #FF900E;;
+}
+ 
+.feature_top_content span{
+    margin:0px 10px;
+}
+
+.feature_bottom_content {
+    margin: 15px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.feature_bottom_content .bottom_title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.feature_bottom_content .bottom_desc {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #727272;
+}
+
+.feature_contents {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.feature_image {
+    width: 48%;
+    margin-left: 2%;
+}
+
+.feature_image img {
+    width: 100%;
+}
+
 /* Main section Css Style End */
