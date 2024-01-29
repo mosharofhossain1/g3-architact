@@ -1,0 +1,28 @@
+/* Mobile Device Breakpoint */
+
+@media screen and (max-width: 576px) {
+    nav ul{
+        display: none;
+    }
+    nav .logo{
+        font-size: 30px;
+    }
+    .menu_bar{
+        display: block;
+    }
+    .banner_title{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    nav ul{
+        display: none;
+    }
+    .menu_bar{
+        display: block;
+    }
+    .banner_title{
+        font-size: 40px;
+    }
+}
