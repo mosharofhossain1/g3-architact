@@ -120,3 +120,58 @@ nav ul li a {
 }
 
 /* Nav Css Style End */
+
+/* Main section Css Style Start */
+/* Team Secttion css */
+.team_section{
+    margin-top: 80px;
+    padding: 40px 0px;
+}
+.teams_container{
+    display: flex;
+    align-items: center;
+     
+}
+.team_title{
+    width: 450px;
+    margin-bottom: 20px;
+}
+.team_desc{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #727272;
+margin-bottom: 20px;
+}
+.normal_color{
+    color: #727272;
+    font-size: 40px;
+    font-weight: 700;
+}
+.black_color{
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+}
+.primary_color{
+    color: #FF900E;
+    font-size: 40px;
+    font-weight: 700;
+}
+.team_images_content{
+    width: 48%;
+    margin-right: 2%;
+}
+.team_images_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.team_images_content img{
+    width: 100%;
+}
+ .team_desc_content{
+    width: 50%;
+    margin-left: 2%;
+ }
+/* Main section Css Style End */
