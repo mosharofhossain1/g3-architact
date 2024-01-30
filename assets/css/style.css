@@ -193,6 +193,7 @@ nav ul li a {
     padding: 50px 0px;
 
 }
+
 .feature_section .experiance {
     background-color: #FF900E;
     padding: 30px;
@@ -206,13 +207,14 @@ nav ul li a {
     left: 527px;
     text-align: center;
 }
+
 .features_container {
     display: flex;
 }
 
 .feature_top_content {
     margin: 15px 0px;
-    
+
 }
 
 .feature_top_content .top_title {
@@ -221,11 +223,12 @@ nav ul li a {
     font-weight: 700;
     color: #131313;
     margin-bottom: 15px;
-    border-left: 7px solid #FF900E;;
+    border-left: 7px solid #FF900E;
+    ;
 }
- 
-.feature_top_content span{
-    margin:0px 10px;
+
+.feature_top_content span {
+    margin: 0px 10px;
 }
 
 .feature_bottom_content {
@@ -263,4 +266,104 @@ nav ul li a {
     width: 100%;
 }
 
+
+/* Facts Section Css */
+.some_facts {
+    padding: 50px 0px;
+    margin: 60px 0px;
+}
+
+.facts_card_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 80px;
+}
+
+.facts_top_content {
+    width: 500px;
+}
+
+.facts_title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.facts_desc {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #727272;
+}
+
+.card {
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    width: 230px;
+    height: auto;
+}
+
+/* Sponsor Section */
+.sponsor_section {
+    padding: 50px 0px;
+    margin-top: 70px;
+}
+
+.sponsor_top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor_title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.sponsor_desc {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #727272;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.sponsor_companys {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.company img {
+    width: 150px;
+    height: auto;
+}
+
 /* Main section Css Style End */
+
+/* Footer Css */
+footer{
+    padding: 50px 0px;
+    
+}
+
+.footer_container{
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+background: #FFF4E7;
+}
+
+.footer_content{
+font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #424242;
+}

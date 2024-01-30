@@ -59,6 +59,36 @@
     .feature_section .experiance {
         display: none;
     }
+    .some_facts{
+        padding: 10px;
+    }
+.facts_top_content{
+    width: 100%;
+}
+    .facts_card_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .facts_card_container .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sponsor_section{
+        padding: 20px;
+    }
+    .sponsor_desc{
+        width: 100%;
+    }
+     .sponsor_companys{
+        grid-template-columns: repeat(1,1fr);
+        
+     }
+     .sponsor_companys .company{
+        padding: 20px;
+        text-align: center;
+     }
+    .footer_container{
+        padding: 10px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -117,4 +147,26 @@
     .feature_section .experiance {
         display: none;
     }
+    .some_facts{
+        padding: 20px;
+    }
+    .facts_card_container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+         gap: 10px;
+    }
+    .facts_card_container .card{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .sponsor_section{
+        padding: 20px;
+    }
+     .sponsor_companys{
+        grid-template-columns: repeat(2,1fr);
+     }
+     .sponsor_companys .company{
+        padding: 20px;
+        text-align: center;
+     }
 }
